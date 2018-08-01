@@ -56,5 +56,23 @@ class database {
         }
         return $datas;
     }
+    
+    public function prepareAssoc($statement)    {
+        $req = $this->getPDO()->prepare($statement);
+        $req->execute();
+        $datas = $req->fetch(PDO::FETCH_ASSOC);
+        return $datas;
+    }
+    
+    public function queryFetchAssoc($statement) {
+        $req = $this->getPDO()->query($statement);
+        $datas = $req->fetch(PDO::FETCH_ASSOC);
+        return $datas;
+    }
+    
+    public function prepareExec($statement) {
+        $req = $this->getPDO()->prepare($statement);
+        $req->execute();
+    }
 
 }
