@@ -30,84 +30,84 @@
     height:auto;
     width:50%; 
     background-image: url(../images/fond/fond2.jpg);
-		background-repeat:no-repeat;
-		background-position:absolute;
-		background-size: cover;
+    background-repeat:no-repeat;
+    background-position:absolute;
+    background-size: cover;
     color: white;
     border-radius:30px 30px 30px 30px;
     border:5px solid #999; 
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
 }
-		h2.titre2{
-			margin-top:-0.43em;
-			margin-right:auto;
-			margin-left:auto;
-			border-radius:20px 20px 0px 0px; 
-			width:auto;
-			height:auto;
-			color: white;
-			background-color:rgb(22,22,22);
-			font-family: Glue Gun;
-			font-size:4em;
-		}
+h2.titre2{
+    margin-top:-0.43em;
+    margin-right:auto;
+    margin-left:auto;
+    border-radius:20px 20px 0px 0px; 
+    width:auto;
+    height:auto;
+    color: white;
+    background-color:rgb(22,22,22);
+    font-family: Glue Gun;
+    font-size:4em;
+}
 div.bouton_quitter{
-	    position:relative ;
-			font-family: Arial, sans-serif;
-			height:2.1em;
-			width:2em;
-	    border-radius:50%;
-			font-size:25px; 
-			bottom:0em;
-	    margin-top:-1em; 
-			margin-right:-5%;
-			margin-left:auto;
-      	background-color:rgb(100,0,0);
-		}
-		p.quitter1{
-      margin-top:0%;
-		}
+    position:relative ;
+    font-family: Arial, sans-serif;
+    height:2.1em;
+    width:2em;
+    border-radius:50%;
+    font-size:25px; 
+    bottom:0em;
+    margin-top:-1em; 
+    margin-right:-5%;
+    margin-left:auto;
+    background-color:rgb(100,0,0);
+}
+p.quitter1{
+    margin-top:0%;
+}
 ul.quitter{
-			display: table;
-	     border-radius:50%;
-			width: 100%;
-		  height:2em; 
-			margin: auto;
-			padding: 0;
-		}
-		ul.quitter li.quitter{
-			display: table-cell;
-		}
-		ul.quitter li.quitter a{
-			 border-radius:50%;
-			display: block;
-			position: relative;
-			height:2.1em;
-			width:2em;
-			text-align: center;
-			color: rgba(255, 255, 255, .7); 
-			text-decoration: none;
-			transition: padding .3s;
-			transition: all .3s .1s;
-			transition: padding .3s, background .3s;
-			padding: 5px 0px 17px 0px;
-			text-shadow: 0 1px 0 rgba(255, 255, 255, .4);
-		}
-		ul.quitter li.quitter:first-child a{
-			 border-radius:50%;
-		}
-		ul.quitter li.quitter:last-child a{
-			 border-radius:50%;
-		}
-		ul.quitter li.quitter a:hover, 
-		ul.quitter li.quitter a:focus{
-			border-radius:50%;
-			transition: all .3s 0s;
-			background: rgba(255,255,255,.2);
-			padding: 8px 8px 17px 8px;
-		}
-		ul.quitter li.quitter a:active{
-			border-radius:50%;
-			background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)); 
-			box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
-		}	
+    display: table;
+    border-radius:50%;
+    width: 100%;
+    height:2em; 
+    margin: auto;
+    padding: 0;
+}
+ul.quitter li.quitter{
+    display: table-cell;
+}
+ul.quitter li.quitter a{
+    border-radius:50%;
+    display: block;
+    position: relative;
+    height:2.1em;
+    width:2em;
+    text-align: center;
+    color: rgba(255, 255, 255, .7); 
+    text-decoration: none;
+    transition: padding .3s;
+    transition: all .3s .1s;
+    transition: padding .3s, background .3s;
+    padding: 5px 0px 17px 0px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .4);
+}
+ul.quitter li.quitter:first-child a{
+    border-radius:50%;
+}
+ul.quitter li.quitter:last-child a{
+    border-radius:50%;
+}
+ul.quitter li.quitter a:hover, 
+ul.quitter li.quitter a:focus{
+    border-radius:50%;
+    transition: all .3s 0s;
+    background: rgba(255,255,255,.2);
+    padding: 8px 8px 17px 8px;
+}
+ul.quitter li.quitter a:active{
+    border-radius:50%;
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)); 
+    box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
+}	

@@ -2,6 +2,20 @@
 	font-family: "Glue Gun";
 	src: url('../police/Glue.otf');
 }
+
+.bandeau {
+    position: relative;
+    height:50px; 
+    background:#111111; 
+    border-bottom: 5px solid white;
+
+}
+
+.error {
+    padding-top: 10px;
+    color: white;
+}
+
 .pub{
     background-color:wheat;
     height:50em;
