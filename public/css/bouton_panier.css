@@ -1,0 +1,147 @@
+.panier{
+  margin-top:-2em;
+	margin-left:36.3%;
+	height:2em;
+	width:auto; 
+}
+img.com2{
+	height:2em;
+}
+ul.panier1{
+			display: table;
+			margin: 0;
+			padding:0;
+		}
+		ul.panier1 li.panier1{
+			display: table-cell;
+			
+		}
+		ul.panier1 li.panier1 a{
+			font-family: Trebuchet MS;
+			font-size:0.5em;
+			margin-top:-0.8em;
+			display: block;
+			position: relative;
+			text-align: center; 
+			text-decoration: none;
+			transition: padding .3s;
+			transition: all .3s .1s;
+			transition: padding .3s, background .3s;
+			padding:11px 20px 11px 20px;
+		}
+		ul.panier1 li.panier1:first-child a{
+			color: #fff;
+			margin:0% 1% 0% 0%;
+			border-radius: 0px 0 0 0px;
+			background-color:rgb(100,0,0);
+		}
+		ul.panier1 li.panier1 a:hover, 
+	   ul.panier1 li.panier1 a:focus{
+			transition: all .3s 0s;
+			padding: 11px 22px 11px 22px;
+		}
+
+
+.panierS{
+  margin-top:-1.9em;
+	height:2em;
+	width:auto; 
+}
+img.com2{
+	height:2em;
+}
+ul.panier2{
+			display: table;
+			margin: 0;
+			padding:0;
+		}
+		ul.panier2 li.panier2{
+			display: table-cell;
+			
+		}
+		ul.panier2 li.panier2 a{
+			font-family: Trebuchet MS;
+			font-size:0.5em;
+			margin-top:-0.8em;
+			display: block;
+			position: relative;
+			text-align: center; 
+			text-decoration: none;
+			transition: padding .3s;
+			transition: all .3s .1s;
+			transition: padding .3s, background .3s;
+			padding:11px 20px 10.1px 20px;
+		}
+		ul.panier2 li.panier2:first-child a{
+			color: #fff;
+			margin:0% 1% 0% 0%;
+			border-radius: 0px 0 0 0px;
+			background-color:rgb(100,0,0);
+		}
+	  ul.panier2 li.panier2 a:hover, 
+	  ul.panier2 li.panier2 a:focus{
+			transition: all .3s 0s;
+			padding: 11px 22px 11px 22px;
+		}
+
+
+
+
+ul.panier1 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+	  font-size:0.5em; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 2px 6px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+ul.panier1:hover .dropdown-content {
+    display: block;
+}
+
+ul.panier2 {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+	  font-size:0.5em; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 2px 6px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+ul.panier2:hover .dropdown-content {
+    display: block;
+}

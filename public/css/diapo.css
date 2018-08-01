@@ -1,0 +1,16 @@
+
+img.diapoS{ 
+  width:35%; 
+  height:45em;
+  margin-right:0;
+  margin-left:auto;
+  border:30px solid #000;
+	border-radius:0px 0px 0px 0px;
+}
+.diapo1{
+  height:45em;
+  background-image: url(../images/fond/fond2.jpg);
+  background-repeat:no-repeat;
+  background-position:absolute;
+  background-size: cover;
+}

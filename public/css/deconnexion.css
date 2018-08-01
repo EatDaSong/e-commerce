@@ -1,0 +1,45 @@
+.general_lienS{
+	margin-left:70%;
+	width:11.1em; 
+}
+.lienS{
+  margin-top:-2.65em;
+	height:2em;
+	width:auto; 
+}
+img.com2{
+	height:2em;
+}
+ul.lien2{
+			display: table;
+			margin: 0;
+			padding:0;
+		}
+		ul.lien2 li.lien2{
+			display: table-cell;
+			
+		}
+		ul.lien2 li.lien2 a{
+			font-family: Trebuchet MS;
+			font-size:0.5em;
+			margin-top:-0.8em;
+			display: block;
+			position: relative;
+			text-align: center; 
+			text-decoration: none;
+			transition: padding .3s;
+			transition: all .3s .1s;
+			transition: padding .3s, background .3s;
+			padding:2px 50px 2px 50px;
+		}
+		ul.lien2 li.lien2:first-child a{
+			color: #fff;
+			margin:0% 1% 0% 0%;
+			border-radius: 0px 0 0 0px;
+			background-color:rgb(100,0,0);
+		}
+		ul.lien2 li.lien2 a:hover, 
+	   ul.lien2 li.lien2 a:focus{
+			transition: all .3s 0s;
+			padding: 2px 52px 2px 52px;
+		}

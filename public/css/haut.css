@@ -1,0 +1,122 @@
+@font-face {
+	font-family: "Glue Gun";
+	src: url('../police/Glue.otf');
+}
+.pub{
+    background-color:wheat;
+    height:50em;
+    width:40%;
+    margin-left:0;
+    margin-right:auto;
+}
+.geekS{
+    height:50em;
+    width:100%;
+    margin-left:0;
+    margin-right:auto;
+}
+.pub2{
+    background-color:wheat;
+    height:50em;
+    width:40%;
+    margin-top:-50em;
+    margin-left:auto;
+    margin-right:0;
+}
+.geekSS{
+    height:50em;
+    width:100%;
+}
+.accueil{
+	  -webkit-transform: skew(0deg);
+	  -moz-transform: skew(0deg);
+	  transform: skew(0deg);
+    position:relative;
+	  border-radius:1%; 
+	  border:5px solid rgb(255,255,255);
+    box-shadow: 0px 0px 5px #000; 
+    background: #111;
+    height:50em;
+    width:30em;
+    margin-top:-50.5em;
+    margin-left:auto;
+    margin-right:auto;
+}
+#pubS{
+    background-color:black;
+    height:49em;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.pres{
+	margin-left:auto;
+  margin-right:auto;
+	position:relative;
+	margin-top:-35em;
+	height:auto;
+  width:30em;
+}
+h1.haut{
+  color:white;
+  text-align:center;
+	margin-top:em;
+  font-family:Glue Gun; 
+  font-size:5em;
+}
+p.haut{
+  color:white;
+  text-align:center;
+	margin-top:-2em;
+  font-family:Glue Gun; 
+  font-size:2.2em;  
+}
+a{
+	text-decoration: none;
+}
+input.haut{
+  margin-top:50%;
+	border:0;
+	font-size:2em;
+	cursor: pointer;
+}
+ul.haut{
+			display: table;
+			width: 50%; 
+			margin: auto;
+			padding: 0;
+		}
+		ul.haut li.haut{
+			display: table-cell;
+		}
+		ul.haut li.haut input{
+			display: block;
+			position: relative;
+			width: 100%;
+		  height:auto;
+			text-align: center;
+			font-family: Glue Gun;
+			color: rgba(0, 0, 0, .7); 
+			transition: padding .3s;
+			transition: all .3s .1s;
+			transition: padding .3s, background .3s;
+			padding: 8px 8px 17px 8px;
+			text-shadow: 0 1px 0 rgba(255, 255, 255, .4);
+		}
+		ul.haut li.haut:first-child input{
+			border-radius: 0px 0 0 0px;
+		}
+		ul.haut li.haut:last-child input{
+			border-radius: 0 0px 0px 0;
+		}
+		ul.haut li.haut input:hover, 
+		ul.haut li.haut input:focus{
+			transition: all .3s 0s;
+			background: rgba(155,155,155);
+			padding: 8px 8px 17px 8px;
+		}
+		ul.haut li.haut input:active{
+			background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)); 
+			box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
+		}	
+

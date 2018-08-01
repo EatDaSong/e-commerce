@@ -1,0 +1,62 @@
+@font-face {
+	font-family: "Glue Gun";
+	src: url('police/Glue.otf');
+}
+
+div.civilite{
+	margin-top:-3em;
+	margin-left:-80%;
+	background-color:white;
+	color:black;
+	width:30%;
+	height:auto;
+	border:1px inset rgb(0,0,0);
+}
+		form.formu2{
+			margin-top:-3.3em;
+			margin-right:auto;
+			margin-left:auto;
+			width:auto;
+			height:auto;
+			background-color:black;
+			font-family: Glue Gun;
+			border-radius:0px 0px 30px 30px;
+			opacity:0.92;
+			border:1px inset rgb(156,156,156);
+		}
+div.scroll{
+	overflow:auto;
+	width:auto;
+	height:30em;
+}
+		table.description3{
+			font-size:1.2em;
+		}
+		table.description4{
+			font-size:1.2em;
+		}
+		label.texte2{
+      color:white;
+		}
+		input.texte2{
+			margin-top:0em;
+			margin-right:auto;
+			margin-left:auto;
+			width:40em;
+			height:3em;
+			border-radius:5px 5px 5px 5px;
+			border:0px inset rgb(156,156,156);
+			color: white;
+			background-color: rgb(40,40,40);
+			font-family: Arial, sans-serif;
+		}
+		div.error404{
+			margin-top:0em;
+      text-align:center;
+			width:auto;
+			height:1.9em;
+			border-radius:0px 0px 10px 10px;
+			color: red;
+			background-color: rgb(0,0,0);
+			font-family: Arial, sans-serif;
+		}
