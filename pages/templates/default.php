@@ -293,7 +293,7 @@
                     </div>
                     <div class="lien_profilS" align="right">
                         <ul class="lien_profil">
-                            <li class="lien_profil"><A HREF="app/profil/connexion_profil.php"><img class="com2" src="public/images/icon/profil.png"></A></li>
+                            <li class="lien_profil"><A HREF="?p=profil"><img class="com2" src="public/images/icon/profil.png"></A></li>
                         </ul>
                     </div>
                     <div class="panier">
@@ -341,9 +341,9 @@
             <div class="categorie">
                 <ul class="menu1">
                     <li class="menu1"><A HREF=""><p>NOUVEAUTES</p></A></li>
-                    <li class="menu1"><A HREF=""><p>FEMME</p></A></li>
-                    <li class="menu1"><A HREF=""><p>HOMME</p></A></li>
-                    <li class="menu1"><A HREF=""><p>ENFANT</p></A></li>
+                    <li class="menu1"><A HREF="?p=femme"><p>FEMME</p></A></li>
+                    <li class="menu1"><A HREF="?p=homme"><p>HOMME</p></A></li>
+                    <li class="menu1"><A HREF="?p=enfant"><p>ENFANT</p></A></li>
                 </ul>
             </div>
             <div class="position_categorie">
