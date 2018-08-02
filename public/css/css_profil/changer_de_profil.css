@@ -1,0 +1,57 @@
+@font-face {
+	font-family: "Glue Gun";
+	src: url('../../police/Glue.otf');
+}
+div.bouton_changer{
+			font-family: Glue Gun;
+			height:4em; 
+			width:30%; 
+			bottom:0em;
+			margin-right:0;
+			margin-left:auto;
+      background-color:rgb(20,20,20);
+		}
+		p.changer1{
+      margin-top:0%;
+		}
+ul.changer{
+			display: table;
+			width: 100%;
+		  height:3em; 
+			margin: auto;
+			padding: 0;
+		}
+		ul.changer li.changer{
+			display: table-cell;
+		}
+		ul.changer li.changer a{
+			display: block;
+			font-size:2.3em; 
+			position: relative;
+			width: 100%;
+		  height:1.35em;
+			text-align: center;
+			color: rgba(255, 255, 255, .7); 
+			text-decoration: none;
+			transition: padding .3s;
+			transition: all .3s .1s;
+			transition: padding .3s, background .3s;
+			padding: 0px 8px 17px 8px;
+			text-shadow: 0 1px 0 rgba(255, 255, 255, .4);
+		}
+		ul.changer li.changer:first-child a{
+			border-radius: 3px 0 0 3px;
+		}
+		ul.changer li.changer:last-child a{
+			border-radius: 0 3px 3px 0;
+		}
+		ul.changer li.changer a:hover, 
+		ul.changer li.changer a:focus{
+			transition: all .3s 0s;
+			background: rgba(255,255,255,.2);
+			padding: 8px 8px 17px 8px;
+		}
+		ul.changer li.changer a:active{
+			background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)); 
+			box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
+		}	

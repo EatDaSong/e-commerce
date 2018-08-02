@@ -1,0 +1,53 @@
+div.bouton_retour{
+			font-family: Arial, sans-serif;
+			height:3em;
+			width:auto;
+			font-size:15px; 
+			bottom:0em;
+			margin-right:auto;
+			margin-left:auto;
+      background:rgb(033,033,033);
+		}
+		p.retour1{
+      margin-top:0%;
+		}
+ul.retour{
+			display: table;
+			width: 100%;
+		  height:2em; 
+			margin: auto;
+			padding: 0;
+		}
+		ul.retour li.retour{
+			display: table-cell;
+		}
+		ul.retour li.retour a{
+			display: block;
+			position: relative;
+			width: 100%;
+		  height:3em;
+			text-align: center;
+			color: rgba(255, 255, 255, .7); 
+			text-decoration: none;
+			transition: padding .3s;
+			transition: all .3s .1s;
+			transition: padding .3s, background .3s;
+			padding: 8px 8px 17px 8px;
+			text-shadow: 0 1px 0 rgba(255, 255, 255, .4);
+		}
+		ul.retour li.retour:first-child a{
+			border-radius: 3px 0 0 3px;
+		}
+		ul.retour li.retour:last-child a{
+			border-radius: 0 3px 3px 0;
+		}
+		ul.retour li.retour a:hover, 
+		ul.retour li.retour a:focus{
+			transition: all .3s 0s;
+			background: rgba(255,255,255,.2);
+			padding: 8px 8px 17px 8px;
+		}
+		ul.retour li.retour a:active{
+			background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)); 
+			box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
+		}	

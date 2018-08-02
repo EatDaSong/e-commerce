@@ -1,0 +1,84 @@
+.lien{
+  margin-top:-2em;
+	margin-left:65%; 
+	height:2em;
+	width:auto; 
+
+}
+ul.lien1{
+			display: table;
+			margin: auto;
+			padding:0;
+		}
+		ul.lien1 li.lien1{
+			display: table-cell;
+			
+		}
+		ul.lien1 li.lien1 a{
+			font-family: Trebuchet MS;
+			font-size:0.5em;
+			margin-top:-0.8em;
+			display: block;
+			position: relative;
+			text-align: center;
+			color: #fff; 
+			text-decoration: none;
+			transition: padding .3s;
+			transition: all .3s .1s;
+			transition: padding .3s, background .3s;
+			padding: 8px 10px 0px 10px;
+		}
+		ul.lien1 li.lien1:first-child a{
+			border-radius: 3px 0 0 3px;
+		}
+		ul.lien1 li.lien1:last-child a{
+			border-radius: 0 3px 3px 0;
+		}
+		ul.lien1 li.lien1 a:hover, 
+	 ul.lien1 li.lien1 a:focus{
+			transition: all .3s 0s;
+			padding: 8px 20px 0px 20px;
+		}
+
+
+.admin{
+  margin-top:-1.6em;
+	margin-right:65%; 
+	height:2em;
+	width:auto; 
+
+}
+ul.admin1{
+			display: table;
+			margin: auto;
+			padding:0;
+		}
+		ul.admin1 li.admin1{
+			display: table-cell;
+			
+		}
+		ul.admin1 li.admin1 a{
+			font-family: Trebuchet MS;
+			font-size:0.5em;
+			margin-top:-0.8em;
+			display: block;
+			position: relative;
+			text-align: center;
+			color: #fff; 
+			text-decoration: none;
+			transition: padding .3s;
+			transition: all .3s .1s;
+			transition: padding .3s, background .3s;
+			padding:8px 0px 0px 0px;
+		}
+		ul.admin1 li.admin1:first-child a{
+			border-radius: 3px 0 0 3px;
+		}
+		ul.admin1 li.admin1:last-child a{
+			border-radius: 0 3px 3px 0;
+		}
+		ul.admin1 li.admin1 a:hover, 
+	ul.admin1 li.admin1 a:focus{
+			transition: all .3s 0s;
+			padding: 10px 0px 0px 0px;
+		}

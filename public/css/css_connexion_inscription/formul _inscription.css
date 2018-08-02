@@ -1,16 +1,6 @@
 @font-face {
 	font-family: "Glue Gun";
-	src: url('police/Glue.otf');
-}
-
-div.civilite{
-	margin-top:-3em;
-	margin-left:-80%;
-	background-color:white;
-	color:black;
-	width:30%;
-	height:auto;
-	border:1px inset rgb(0,0,0);
+	src: url('../../police/Glue.otf');
 }
 		form.formu2{
 			margin-top:-3.3em;

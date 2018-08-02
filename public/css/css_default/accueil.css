@@ -1,0 +1,129 @@
+@font-face {
+	font-family: "Glue Gun";
+	src: url('police/Glue.otf');
+}
+body{
+	 margin:0; 
+   background-color:black;
+}
+.pub{
+    background-color:wheat;
+    height:48em;
+    width:40em;
+    margin-left:0;
+    margin-right:auto;
+}
+.diapoS2{
+    height:48em;
+    width:35em;
+    margin-left:0;
+    margin-right:auto;
+}
+.pub2{
+    background-color:wheat;
+    height:48em;
+    width:40em;
+    margin-top:-48em;
+    margin-left:auto;
+    margin-right:0;
+}
+.diapoSS2{
+    height:48em;
+    width:35em;
+    margin-left:auto;
+    margin-right:0;
+}
+.accueil{
+	  -webkit-transform: skew(-25deg);
+	  -moz-transform: skew(-25deg);
+	  transform: skew(-10deg);
+    position:relative;
+	  border-radius:1%; 
+	  border:5px solid rgb(255,255,255);
+    box-shadow: 0px 0px 10px #000; 
+    background: #c31432;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height:47.6em;
+    width:30em;
+    margin-top:-48em;
+    margin-left:auto;
+    margin-right:auto;
+}
+.pubS{
+    background-color:black;
+    height:48em;
+    width:85em;
+	   border:10px solid rgb(255,255,255);
+    margin-left:auto;
+    margin-right:auto;
+}
+.pres{
+	margin-left:auto;
+  margin-right:auto;
+	position:relative;
+	margin-top:-35em;
+	height:auto;
+  width:30em;
+}
+h1{
+  color:white;
+  text-align:center;
+	margin-top:em;
+  font-family:Glue Gun; 
+  font-size:5em;
+}
+p{
+  color:white;
+  text-align:center;
+	margin-top:-2em;
+  font-family:Glue Gun; 
+  font-size:2.2em;  
+}
+
+input.inscrist{
+  margin-top:1%;
+	border:0;
+	font-size:2em;
+}
+ul.inscrip{
+			display: table;
+			width: 40%; 
+			margin: auto;
+			padding: 0;
+		}
+		ul.inscrip li.inscrip{
+			display: table-cell;
+		}
+		ul.inscrip li.inscrip input{
+			display: block;
+			position: relative;
+			width: 100%;
+		  height:auto;
+			text-align: center;
+			font-family: Glue Gun;
+			color: rgba(0, 0, 0, .7); 
+			text-decoration: none;
+			transition: padding .3s;
+			transition: all .3s .1s;
+			transition: padding .3s, background .3s;
+			padding: 8px 8px 17px 8px;
+			text-shadow: 0 1px 0 rgba(255, 255, 255, .4);
+		}
+		ul.inscrip li.inscrip:first-child input{
+			border-radius: 0px 0 0 0px;
+		}
+		ul.inscrip li.inscrip:last-child input{
+			border-radius: 0 0px 0px 0;
+		}
+		ul.inscrip li.inscrip input:hover, 
+		ul.inscrip li.inscrip input:focus{
+			transition: all .3s 0s;
+			background: rgba(155,155,155);
+			padding: 8px 8px 17px 8px;
+		}
+		ul.inscrip li.inscrip input:active{
+			background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)); 
+			box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
+		}	
+

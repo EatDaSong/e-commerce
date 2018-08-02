@@ -1,0 +1,44 @@
+@font-face {
+	font-family: "Glue Gun";
+	src: url('../../police/Glue.otf');
+}
+.titre{
+  margin-top:0em;
+	margin-left:0%; 
+	height:2em;
+	width:auto; 
+}
+ul.titreS{
+			display: table;
+			margin: auto;
+			padding:0;
+		}
+		ul.titreS li.titreS{
+			display: table-cell;
+			
+		}
+		ul.titreS li.titreS p{
+			font-family: Glue Gun;
+			font-size:0.6em;
+			margin-top:-0.8em;
+			display: block;
+			position: relative;
+			text-align: center;
+			color: #fff; 
+			text-decoration: none;
+			transition: padding .3s;
+			transition: all .3s .1s;
+			transition: padding .3s, background .3s;
+			padding: 8px 10px 0px 10px;
+		}
+		ul.titreS li.titreS:first-child p{
+			border-radius: 3px 0 0 3px;
+		}
+		ul.titreS li.titreS:last-child p{
+			border-radius: 0 3px 3px 0;
+		}
+		ul.titreS li.titreS p:hover, 
+	ul.titreS li.titreS p:focus{
+			transition: all .3s 0s;
+			padding: 8px 20px 0px 20px;
+		}

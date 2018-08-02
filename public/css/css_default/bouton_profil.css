@@ -1,0 +1,42 @@
+.lien_profilS{
+  margin-top:-2em;
+	margin-left:-36.6%; 
+	height:2em;
+	width:auto; 
+}
+img.com2{
+	height:2em;
+}
+ul.lien_profil{
+			display: table;
+			margin: 0;
+			padding:0;
+		}
+		ul.lien_profil li.lien_profil{
+			display: table-cell;
+			
+		}
+		ul.lien_profil li.lien_profil a{
+			font-family: Trebuchet MS;
+			font-size:0.5em;
+			margin-top:-0.8em;
+			display: block;
+			position: relative;
+			text-align: center; 
+			text-decoration: none;
+			transition: padding .3s;
+			transition: all .3s .1s;
+			transition: padding .3s, background .3s;
+			padding:11px 20px 11px 20px;
+		}
+		ul.lien_profil li.lien_profil:first-child a{
+			color: #fff;
+			margin:0% 1% 0% 0%;
+			border-radius: 0px 0 0 0px;
+			background-color:rgb(100,0,0);
+		}
+		ul.lien_profil li.lien_profil a:hover, 
+	   ul.lien_profil li.lien_profil a:focus{
+			transition: all .3s 0s;
+			padding: 11px 22px 11px 22px;
+		}

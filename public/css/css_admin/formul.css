@@ -1,0 +1,195 @@
+@font-face {
+	font-family: "Glue Gun";
+	src: url('../../police/Glue.otf');
+}
+body{
+	background-color:rgb(0,0,0);
+	background-repeat:no-repeat;
+	background-position:absolute;
+	background-size: cover;
+	margin:0;
+}
+.position1{
+	margin-top:0em;
+	margin-right:auto;
+	margin-left:30%;
+}
+.cadre{ 
+	width:100%;
+	height:auto;
+	border:1px solid #555;
+	border-radius:0px 0px 0px 0px;
+}
+.container3{
+	margin-top:-16em;
+	height:16em; 
+}
+.container3 span{
+  display: block;
+}
+.text1{
+  position:relative;
+	height:12em;
+}
+.text2{
+  color:rgb(255,255,255);
+  font-size: 30px;
+	font-family: Glue Gun;
+  margin-top:-0.4em; 
+}
+img.com{
+	width:1em;
+}
+div.com{
+	margin-left:7em;
+	margin-top:-2.2em; 
+}
+.menu{
+  position: -webkit-sticky;
+  position: sticky;
+	color:white;
+	margin-top:0%;
+  top:0%;
+	padding:2%;
+	margin-right:0%;
+	margin-left:auto;
+	height:0em;
+	width:70%; 
+	font-size:2em; 
+  background:rgb(033,033,033);
+	z-index:1;
+}
+
+		h2.titre2{
+			margin-top:-9em;
+			margin-right:auto;
+			margin-left:auto;
+			width:auto;
+			height:auto;
+			color: white;
+			background-color:rgb(22,22,22);
+				font-family: Glue Gun;
+			font-size:5em;
+		}
+		div.inscription{
+			background: linear-gradient(to right, #000,  #000);
+			border-radius:0px;
+			border:0px inset #0F2027;
+			margin-top:0;
+			margin-right:0;
+			margin-left:auto;
+			width:50%;
+			height:41em;
+		}
+		form.formu{
+			margin-top:0em;
+			margin-right:auto;
+			margin-left:auto;
+		}
+		input.texte{
+			margin-top:0em;
+			margin-right:auto;
+			margin-left:auto;
+			font-size:15;
+			width:20em;
+			height:3em;
+			border-radius:5px 5px 5px 5px;
+			border:0px inset rgb(156,156,156);
+			color: white;
+			background-color: rgb(40,40,40);
+			font-family: Arial, sans-serif;
+		}
+		hr{
+			color:black;
+		}
+		div.error404{
+			margin-top:-1.6em;
+			margin-right:auto;
+			margin-left:auto;
+			width:auto;
+			height:1.9em;
+			border-radius:0px 0px 10px 10px;
+			color: red;
+			background-color: rgb(0,0,0);
+			font-family: Arial, sans-serif;
+		}
+
+
+		.col-1 {width: 8.33%;}
+		.col-2 {width: 16.66%;}
+		.col-3 {width: 25%;}
+		.col-4 {width: 33.33%;}
+		.col-5 {width: 45%;}
+		.col-6 {width: 50%;}
+		.col-7 {width: 58.33%;}
+		.col-8 {width: 66.66%;}
+		.col-9 {width: 75%;}
+		.col-10 {width: 83.33%;}
+		.col-11 {width: 91.66%;}
+		.col-12 {width: 100%;}
+		*{
+		  box-sizing: border-box;
+		}
+		[class*="col-"] {
+			float: left;
+		}
+div.descri{
+	font-family: Arial, sans-serif;
+	height:16em;
+	width:auto;
+	bottom:0em;
+	margin-right:auto;
+	margin-left:auto;
+	background:rgb(022,022,022);
+
+}
+div.descriS{
+	margin-left:3em;
+}
+ul.aide{
+	display: table;
+	width: 70%;
+	height:2em; 
+	margin: auto;
+	padding:0%;
+	border-radius: 3px;
+	color: rgb(222,222,222);
+}
+li.aide1{
+	display: table-cell;
+}
+li.aide2{
+	display: table-cell;
+}
+li.aide3{
+	display: table-cell;
+}
+li.aide4{
+	display: table-cell;
+}
+hr{
+	color:#111; 
+}
+p.bas{
+	font-family: Glue Gun;
+	color: rgb(222,222,222);
+}
+p.copi{
+	font-family: Arial, sans-serif;
+	color: #fff;
+}
+img.diap2{
+	width:auto;
+	height:30px;
+	margin-left:2%;
+}
+div.diap2S{
+	text-align:center;
+	margin-top:-2.8em;
+	margin-left:-2%;
+}
+footer{
+	width:auto;
+	margin-top:0em;
+  background:rgb(0,0,0);
+}
