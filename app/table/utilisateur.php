@@ -223,11 +223,9 @@ class Utilisateur {
      */
 
     public function sauvegarderLUtilisateur() {
-        //On se connecte à la base de données
-        $pdo = connectionBDD();
-        //On prépare la requête (entre autre contre les injections avec pdo->prepare)
+
         //id_membre 	pseudo 	mot_de_passe 	nom 	prenom 	email 	sexe 	date_de_naissance 	adresse 	ville 	code_postal 	pays 	url_avatar 	participe_au_concours 	admin
-        $requete = $pdo->prepare("UPDATE membres SET pseudo = '" . $this->pseudo . "',
+        $retour = data::getDB()->prepareExec("UPDATE membres SET pseudo = '" . $this->pseudo . "',
 		    										 mot_de_passe = '" . $this->motDePasse . "', 
 		    										 nom = '" . $this->nom . "', 
 		    										 prenom ='" . $this->prenom . "', 
@@ -238,12 +236,8 @@ class Utilisateur {
 		    										 ville = '" . $this->ville . "', 
 		    										 code_postal = '" . $this->codePostal . "', 
 		    										 pays = '" . $this->pays . "', 
-		    										 url_avatar = '" . $this->urlAvatar . "', 
-		    										 participe_au_concours = '" . $this->participeAuConcours . "'
-		    										 WHERE id_membre = '" . $this->id . "'");
-        //On effectue la requete			   
-        $retour = $requete->execute();
-        //print_r($requete->errorInfo());			
+		    										 url_avatar = '" . $this->urlAvatar . "'
+		    										 WHERE id_membre = '" . $this->id . "'");		  		
 
         return $retour;
     }
@@ -341,9 +335,13 @@ class Utilisateur {
     public function getPays() {
         return $this->pays;
     }
+    
+    function getMotDePasse() {
+        return $this->motDePasse;
+    }
 
-    public function isParticipeAuConcours() {
-        return $this->participeAuConcours;
+    function getUrlAvatar() {
+        return $this->urlAvatar;
     }
 
     /** Les SETEURS * */
@@ -364,6 +362,7 @@ class Utilisateur {
         $this->prenom = $nvPrenom;
     }
 
+    
     public function setDateDeNaissance($nvDate) {
         if ($nvDate != "") {
             $dateDeNaissance2 = explode("/", $nvDate);
@@ -403,7 +402,7 @@ class Utilisateur {
 
     public function setMotDePasse($nvPassword) {
         if ($nvPassword != "")
-            $this->motDePasse = md5("mamy87" . $nvPassword . "papy15");
+            $this->motDePasse = md5($nvPassword);
     }
 
 }
